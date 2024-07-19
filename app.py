@@ -2,7 +2,6 @@ import pyautogui
 import time
 import pyperclip
 
-# Definição das coordenadas de cliques e movimentos do mouse
 x_click1 = 1601
 y_click1 = 1053
 x_click2 = 1606
@@ -106,7 +105,6 @@ pyautogui.click()
 
 time.sleep(0.6)
 
-# Abrir o arquivo dossies_BT e clicar
 pyperclip.copy("dossies_BT")
 pyautogui.hotkey('ctrl', 'v')
 pyautogui.press('enter')
@@ -117,7 +115,6 @@ pyautogui.click()
 
 time.sleep(0.8)
 
-# Abrir o arquivo BT_dossies assinados e clicar e arrastar
 pyperclip.copy("BT_dossies assinados")
 pyautogui.hotkey('ctrl', 'v')
 pyautogui.press('enter')
